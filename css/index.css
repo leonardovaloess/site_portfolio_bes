@@ -1,0 +1,48 @@
+.foto-perfil{
+    width: 490px;
+    height: 660px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.185);
+}
+
+.container{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 3rem;
+}
+
+.left-size{
+    margin-top: 2rem;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.left-size > h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+
+.left-size > button {
+    padding: 1rem;
+    width: 400px;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #0048d9;
+    color: #fff;
+    font-weight: 1000;
+}
+
+.left-size > p {
+    font-size: 20px;
+    text-align: justify;
+}
