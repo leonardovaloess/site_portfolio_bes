@@ -2,7 +2,7 @@
 .container{
     background-color: black;
     height: 900px;
-    height: 75vh;
+    height: 100vh;
     position: relative;
 }
 .img-background{
@@ -21,10 +21,11 @@
     flex-direction: column;
     gap: 2rem;
     width: 650px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 800;
 }
 
 .sobre-link{
     color: #9b9b9b;
 }
+
